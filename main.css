@@ -1,0 +1,254 @@
+/* All webpages*/
+html {
+  background-color: #f7fbeb ; 
+}
+
+#mainnav {
+  display: flex;
+  justify-content: center;
+  background-color: #eac7c7;
+  border: 2px solid black; 
+}
+
+#mainnav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  color: black;
+  background-color: #eac7c7;
+}
+
+#mainnav a:hover {
+  background-color: #f6cefc; 
+}
+h1#impact-head{
+  align: center;
+  font-family: georgia, sans-serif;
+  font-size: 60px;
+}
+
+#bottom {
+  padding: 10px 20px;
+  border: 2px solid black;
+  background-color: #eac7c7;
+  text-align: right;
+}
+
+h2#prof {
+  align: center;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  border: 5px solid black;
+  background-color: #a0c3d2;
+}
+
+/*index page*/
+
+#myimage {
+  border-collapse: collapse;
+}
+
+#myimage img {
+  border: 20px solid #a0c3d2; 
+  padding: 10px; 
+}
+
+
+#custom-paragraph {
+	background-color: #eac7c7;
+  font-size: 25px; 
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+/*resume*/
+
+h1#careerborder {
+  align: center;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  border: 5px solid black;
+  background-color: #a0c3d2;
+}
+
+#column-container {
+  display: flex;
+  width: 100%; 
+}
+
+.diagonal-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr; 
+  grid-gap: 10px; 
+  width: 100%; 
+}
+
+#smalldivres {
+  align: center;
+  flex: 3;
+  background-color: #ffffff; 
+  border: 3px solid black;
+  font-size: 25px; 
+}
+
+#largedivres {
+  flex: 4; 
+  font-size: 20px; 
+  
+}
+
+#careerpath{
+	font-size: 20px; 
+}
+
+/*Personality*/
+#personalacademic{
+	font-size: 20px;
+	border: 10px solid #e8a2a2; 
+	background-color: #a0c3d2;
+	padding: 5px; 
+	width: 95%; 
+	margin: 0 auto; 
+	text-align: center; 
+	border-radius: 10px; 
+}
+#hero-container {
+  display: flex;
+  width: 100%;
+}
+
+.diagonal-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+}
+
+#abouthero {
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: #e8a2a2;
+  padding: 5px;
+  width: 100%; 
+  text-align: center;
+  border-radius: 10px;
+  align-self: center;
+  font-size: 20px;
+}
+
+#imageofhero img {
+  border: 1px solid black;
+  background-color: #e8a2a2;
+  padding: 5px;
+  width: 80%; 
+  text-align: center;
+  border-radius: 10px;
+}
+
+#test1 img {
+  border: 1px solid black;
+  background-color: #e8a2a2;
+  padding: 5px;
+}
+
+#myopinion{
+	font-size: 20px;
+	border: 10px solid #e8a2a2; 
+	background-color: #a0c3d2;
+	padding: 5px; 
+	width: 95%; 
+	margin: 0 auto; 
+	text-align: center; 
+	border-radius: 10px; 
+}
+
+/*Personal Developement*/
+h3#titlesum {
+  align: center;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  border: 5px solid black;
+  background-color: #e8a2a2;
+  width: 30%;
+}
+
+#summarypar {
+	font-size:20px;
+    border: 1px solid #f7fbeb;
+    background-color: #f7fbeb;
+    width: 100%;	
+	 
+}
+
+#skillpar {
+	font-size:20px;
+}
+
+#pillar-container {
+  display: flex;
+  width: 100%;
+}
+
+.diagonal-container3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  width: 90%;
+}
+
+#summarydiv {
+	flex:4;
+  font-size: 20px;
+  width: 120%;
+  text-align: center;
+  align-self: center;
+}
+
+#summaryimg img {
+  flex:2;
+  width: 70%; 
+  border: 5px solid #e8a2a2; 
+}
+
+/*Story Board*/
+#theme-ish img {
+	  border: 10px solid black;
+}
+
+#pages {
+	font-size:20px;
+
+}
+
+#list.f {
+	font-size:20px;
+}
+
+#wire {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#wire td {
+  padding: 10px;
+  text-align: left;
+}
+
+#wire tr:nth-child(even) {
+  background-color: #f7fbeb;
+}
+
+
+/*button*/
+button {
+	font-family: Arial, sans-serif;
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
